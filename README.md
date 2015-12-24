@@ -8,10 +8,10 @@
 -curl
 
 #How
-1-first start chrome use our proxy and no sec
+1-first start chrome use our proxy and no security 
     
     open /Applications/Google\ Chrome.app --args --disable-web-security --proxy-server="127.0.0.1:8080"
-
+for mac osx, similar commands for other oses
 
 
 2-start proxy server 
