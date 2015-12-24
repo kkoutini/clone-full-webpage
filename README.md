@@ -9,14 +9,17 @@
 
 #How
 1-first start chrome use our proxy and no sec
+    
     open /Applications/Google\ Chrome.app --args --disable-web-security --proxy-server="127.0.0.1:8080"
 
 
 
 2-start proxy server 
+    
     python proxy.py 
 
 3-Now all requests stored in urlss file, grep all Get remove some extras
+     
      cat urlss | grep GET | sed 's/GET //g' | sed 's/ HTTP\/1.1//g'   > urlfinal
 
 4-Now we get in the file all requests which were sent (you may still need to fix / to /index.html etc...)
