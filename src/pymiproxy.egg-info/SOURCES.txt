@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+src/miproxy/__init__.py
+src/miproxy/proxy.py
+src/pymiproxy.egg-info/PKG-INFO
+src/pymiproxy.egg-info/SOURCES.txt
+src/pymiproxy.egg-info/dependency_links.txt
+src/pymiproxy.egg-info/requires.txt
+src/pymiproxy.egg-info/top_level.txt
